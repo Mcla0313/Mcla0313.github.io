@@ -1,0 +1,49 @@
+.grid{
+    width:800px;
+    /*CSS Box model
+    Margin: All sides
+    Margin: x x - Top and Bottom, left and right
+    Margin: x x x - Top left/right Bottom*/
+    margin:10px auto 0;
+    border: 3px dashed black;
+    
+/*Make this a grid container*/
+display: grid;
+
+/*Set a grid with two columns, each 400px wide*/
+/*grid-template-columns: 400px 400px;*/
+
+/*Set a grid with two columns, each with an equal amount of space*/
+grid-template-columns: 3fr 4fr 2fr;
+/* fr = "Fraction", or a fraction of the available space*/
+
+
+/*Use 'repeat' to add four columns*/
+grid-template-columns:repeat(4, 1fr);
+
+
+
+/*You can also use grid-template-rows:*/
+grid-template-rows:repeat(4, 100px);
+
+}
+.grid-item{
+background:blanchedalmond;
+font-size: 24px;
+height: 50px;
+border: 2px solid white;
+}
+
+/*UUsing the grid culumn and row numbers, position a box exactly*/
+.grid-item:nth-child(1){
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+
+/*Use the jsutify and align properties to position items*/
+.grid-item:nth-child(4){
+align-self: end;
+justify-self: end;
+}
