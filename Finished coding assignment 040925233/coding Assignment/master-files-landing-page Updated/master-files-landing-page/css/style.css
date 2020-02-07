@@ -1,0 +1,520 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@media screen and (max-width: 650px) {
+
+	body {
+		background-color: #f7f7ff;
+		font-family: 'Montserrat', sans-serif;
+	}
+	/*This code is for styling the logo*/
+	.logo {
+		display: flex;
+		width: 25%;
+		padding-left: 20%;
+		font-weight: bolder;
+	}
+	/*******************************************/
+	/*This code is for styling the scooter SVG*/
+	.scooter {
+		width: 50%;
+		padding-left: 25%;
+	}
+	/******************************************/
+	/*This code ia for styling the bold "Want to be your own boss" text*/
+	.boss {
+		text-align: center;
+		font-size: 60px;
+		font-weight: bold;
+	}
+	/******************************************/
+
+	/*This code is for styling the "start now!" portion of the page.*/
+	.start {
+		text-align: center;
+		font-size: 25px;
+		padding: 5px;
+	}
+
+	/******************************************/
+	/*This code is for styling the apply not form with its colors and overall style*/
+	.applynow {
+		text-align: center;
+		font-size: 20px;
+		border-radius: 25px;
+		width: 350px;
+		height: 450px;
+		background-color: white;
+		box-shadow: 4px 4px 6px grey;
+	}
+
+	input {
+		background-color: lightgray;
+		border-radius: 7px 7px 7px;
+		padding: 10px;
+	}
+
+	.container {
+		padding-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+
+	/*****************************************/
+	/*This code is for styling the button and the red text that follow under it*/
+	.drivewu {
+		background-color: #57eeab;
+		height: 40px;
+		width: 240px;
+		font-weight: bold;
+		font-size: 20px;
+		border-radius: 15px;
+	}
+
+	.red {
+		color: #ff8480;
+	}
+
+	/***************************************/
+
+	/*This code is for styling the footer*/
+	h1 {
+		font-size: 40px;
+	}
+
+	h3 {
+		padding: 2px 2px 2px 2px;
+	}
+
+	footer {
+		display: block;
+		text-align: center;
+
+		background-color: #fffd8c;
+	}
+
+	.footerbutton {
+		background-color: #ff8480;
+		width: 240px;
+		height: 30px;
+		font-size: 20px;
+		color: white;
+		font-weight: bold;
+		border-radius: 20px 20px 20px 20px;
+	}
+
+	.lastpara {
+		font-size: 25px;
+		padding: 5px;
+	}
+
+	.lastpara1 {
+		padding: 5px;
+	}
+}
+
+@media screen and (min-width: 651px) {
+	body {
+		background-color: #f7f7ff;
+		font-family: 'Montserrat', sans-serif;
+	}
+	/*This code is for styling the logo*/
+	.logo {
+		display: flex;
+		width: 15%;
+		padding-left: 328px;
+	}
+	/*******************************************/
+	/*This code is for styling the scooter SVG*/
+	.scooter {
+		width: 50%;
+		padding-left: 25%;
+	}
+	/*******************************************/
+	/*This code ia for styling the bold "Want to be your own boss" text*/
+	.boss {
+		font-size: 60px;
+		font-weight: bolder;
+		padding-left: 170px;
+
+	}
+	/*******************************************/
+	/*This code is for styling the "start now!" portion of the page.*/
+	.start {
+		text-align: center;
+		font-size: 25px;
+		padding: 5px;
+	}
+	/*******************************************/
+	/*This code is for styling the apply form with its colors and overall style*/
+	.applynow {
+		padding: 10px;
+		font-size: 20px;
+		border-radius: 25px;
+		width: 350px;
+		height: 400px;
+		background-color: white;
+		box-shadow: 4px 4px 6px grey;
+		padding: 10px;
+	}
+
+	.container {
+		padding-top: 20px;
+		display: flex;
+		justify-content: center;
+	}
+
+	input {
+		background-color: lightgray;
+		border-radius: 7px 7px 7px;
+		padding: 10px;
+		padding-right: 120px;
+	}
+	h1 {
+		font-size: 40px;
+		padding: 10px;
+	}
+
+	h3 {
+		padding-bottom: 10px;
+	}
+
+	.lastname {
+		padding-bottom: 20px;
+	}
+}
+
+	/*****************************************/
+	/*This code is for styling the "drive with us" button*/
+	.drivewu {
+		background-color: #57eeab;
+		height: 40px;
+		width: 340px;
+		font-weight: bold;
+		font-size: 20px;
+		border-radius: 15px;
+	}
+	/*****************************************/
+	/*this code is for styling the bottom portion of the form*/
+	.red {
+		color: #ff8480;
+		padding-left: 30px;
+	}
+	
+
+	.alreadyap {
+		padding-left: 100px;
+	}
+	/*****************************************/
+
+
+	/*This code is for styling the footer*/
+
+footer {
+	display: block;
+	text-align: center;
+
+	background-color: #fffd8c;
+}
+
+.footerbutton {
+	background-color: #ff8480;
+	width: 240px;
+	height: 30px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.lastpara {
+	font-size: 25px;
+	padding: 5px;
+}
+
+.lastpara1 {
+	padding: 5px;
+}	
+	/******************************************/
+
+@media screen and (min-width: 1000px) {
+	body {
+		background-color: #f7f7ff;
+		font-family: 'Montserrat', sans-serif;
+	}
+	/*This is the code for the grid portion of the website. I went with this because it was the ideal way to have the grid for this situation*/
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+	/******************************************/
+	/*This code is for styling the logo*/
+	.logo {
+		width: 6%;
+		padding-left: 290px;
+		font-weight: bolder;
+	}
+	/*This is the code used to style to scooter SVG*/
+	.scooter {
+		width: 140%;
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 1;
+		padding-right: 25%;
+
+
+	}
+	/******************************************/
+	/*This is the code used to style the "Want to be your own boss heading*/
+
+	.boss {
+		text-align: left;
+		font-size: 80px;
+		font-weight: bold;
+		padding-left: 290px;
+		padding-top: 60px;
+
+	}
+	/******************************************/
+	/*This was the code used to style the subheading to the*/
+	.start {
+		text-align: left;
+		font-size: 25px;
+		padding-left: 290px;
+	}
+
+	.applynow {
+		padding: 10px;
+		font-size: 20px;
+		font-weight: bolder;
+		border-radius: 25px;
+		width: 450px;
+		height: 550px;
+		background-color: white;
+		box-shadow: 4px 4px 6px grey;
+		text-align: center;
+	}
+	.container {
+		grid-column-start: 4;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	/*This is the code used to style the "Drive with us button*/
+	.drivewu {
+		background-color: #57eeab;
+		height: 40px;
+		width: 300px;
+		font-weight: bold;
+		font-size: 20px;
+		border-radius: 15px;
+		padding-left: 16%;
+	}
+	/*****************************************/
+	/*this code is for styling the bottom portion of the form*/
+	.red {
+		color: #ff8480;
+		padding-left: 30px;
+	}
+
+	.alreadyap {
+		padding-left: 40px;
+	}
+	/*****************************************/
+	/*This is the code used */
+	h1 {
+		font-size: 40px;
+		padding: 10px;
+	}
+
+	h3 {
+		padding-bottom: 10px;
+	}
+
+	.lastname {
+		padding-bottom: 20px;
+	}
+}
+
+/*This is the code used to style the foooter and the social media logos*/
+footer {
+	text-align: left;	
+	background-color: #fffd8c;
+	padding-left: 25px;
+}
+
+.footerbutton {
+	background-color: #ff8480;
+	padding-left: 65px;
+	width: 240px;
+	height: 40px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.lastpara {
+	font-size: 25px;
+	padding: 5px;
+}
+
+.lastpara1 {
+	padding: 5px;
+}
+
+.logos {
+	padding-left: 90%;
+}
+
+.facebook {
+	padding-right: 25px;
+	padding-bottom: 45px;
+}
+
+.twitter {
+	padding-left: 25px;
+	padding-bottom: 45px;
+}
+
+.linkin {
+	padding-left: 25px;
+	padding-bottom: 45px;
+}
+
+.instagram {
+	padding-bottom: 45px;
+}
+/******************************************/
