@@ -1,0 +1,679 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*The code below is used for styling the home page content*/
+    /*The code below is used for styling the nav bar*/
+    .topnavbar {
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        padding-left: 30px;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 1s;
+        border-radius: 10%;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .logo {
+        background-color: #31444D;
+        height: 45px;
+        width: 45px;
+        float: left;
+        padding: 11px;
+    }
+
+    /*The code velow is used for styling the main picture on the page*/
+    .homepic {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*the code is used for styling the text above the picture*/
+    .welcome {
+        font-size: 34px;
+        text-align: left;
+    }
+
+    .subheading {
+        text-align: left;
+    }
+
+    .pictext {
+        position: relative;
+        color: white;
+    }
+
+    .bottom-left {
+        position: absolute;
+        justify-content: left;
+        padding-left: 20px;
+        bottom: 100px;
+        width: 250px;
+
+    }
+
+    /*The code below is used for styling the main body paragraph*/
+    .artist {
+        background-color: #31444D;
+        color: white;
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    /*This code is used for styling the picture and its description.*/
+    .molly {
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .mollypic {
+        width: 100%;
+    }
+
+    .trainpic {
+        width: 100%;
+    }
+
+    .traintext {
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .extragrid1{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid2{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid3{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid4{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid5{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+            }
+
+    /*This code is used for styling the contact page and its content*/
+    .contactinfo {
+        background-color: #97CABC;
+        padding-top: 40px;
+        height: 650px;
+        text-align: center;
+    }
+
+    .contacttext {
+        color: white;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    /*The code below is used for styling the contact picture. I did it like this to help put a name to a face.*/
+    .familypic {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    /*This code is used for styling the gallery for the mobile view*/
+    .mobilegallery {
+        width: 75%;
+    }
+
+    .galleryimages {
+        position: relative;
+        text-align: center;
+        transition: 2s;
+    }
+
+    .galleryimages:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+    .information {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 40px;
+        width: auto;
+        border: 10px;
+        color: white;
+        background-color: #31444D;
+    }
+
+    /*This code is used for styling the text on top of the images*/
+    .top-middle {
+        position: absolute;
+        font-size: 25px;
+        top: 12px;
+        left: 86px;
+    }
+
+    .top-bottom {
+        font-size: 15px;
+        position: absolute;
+        top: 39px;
+        left: 96px;
+    }
+
+    .gallery-color {
+        color: white;
+    }
+
+    /*This code is used for styling the bottom nav bar. I did it this way to keep it consistent with the media querys and make sure it doesnt take up to much screen space.*/
+    .bottomnavbar {
+        display: grid;
+        margin: 0 auto;
+        grid-column: 2/4;
+        grid-row: 4/4;
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 999px) {
+
+    /*I was able to reuse alot of assets from the mobile version and made minor tweaks to adjust
+    to the tablet screen size*/
+
+    /*The code below is used for styling the home page content*/
+    /*The code below is used for styling the nav bar*/
+    .topnavbar {
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        padding-left: 30px;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 1s;
+        border-radius: 10%;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .logo {
+        background-color: #31444D;
+        height: 45px;
+        width: 45px;
+        float: left;
+        padding: 11px;
+    }
+
+    /*The code below is used for styling the main picture on the page I did it seperatly because of its style differences from the two other pages*/
+    .homepic {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+
+    /*the code is used for styling the text above the picture*/
+    .welcome {
+        font-size: 34px;
+        text-align: left;
+    }
+
+    .subheading {
+        text-align: left;
+    }
+
+    .pictext {
+        position: relative;
+        color: white;
+    }
+
+    .bottom-left {
+        position: absolute;
+        justify-content: left;
+        padding-left: 20px;
+        bottom: 50px;
+        width: 250px;
+
+    }
+
+    /*The code below is used for styling the main body paragraph*/
+    .artist {
+        background-color: #31444D;
+        color: white;
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    /*This code is used for styling the homepage pictures and their descriptions.*/
+    .molly {
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .mollypic {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .trainpic {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .traintext {
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    /*I had chosen to use bootstrap for this part because I had alot of trouble getting the CSSGrid to work, thus I decided to go with boostrap*/
+    .extragrid1{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid2{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid3{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid4{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+        }
+        .extragrid5{
+        width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+            }
+
+    /*This code is used for styling the contact page and its content I did it this way to minimize redundancy and is easier to read*/
+    .contactinfo {
+        display: block;
+        margin: 0 auto;
+        background-color: #97CABC;
+        width: 75%;
+        justify-content: center;
+        padding-top: 40px;
+        height: 650px;
+        text-align: center;
+    }
+
+    .contacttext {
+        color: white;
+        line-height: 30px;
+    }
+
+    .information {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 40px;
+        width: auto;
+        border: 10px;
+        color: white;
+        background-color: #31444D;
+    }
+
+    /*The code below is used for styling the contact picture. I did it like this to help put a name to a face.*/
+    .familypic {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    /*This code is used for styling the gallery for the tablet view*/
+    .mobilegallery {
+        width: 65%;
+    }
+
+    .galleryimages {
+        position: relative;
+        text-align: center;
+        transition: 2s;
+    }
+
+    .galleryimages:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+    /*This code is used to style the code on top of pictures. I did it this way as it is supports the image sizes and when they change the text is still visible*/
+    .top-middle {
+        font-size: 30px;
+        position: absolute;
+        top: 60px;
+        left: 180px;
+    }
+
+    .top-bottom {
+        font-size: 20px;
+        position: absolute;
+        top: 90px;
+        left: 180px;
+    }
+
+    .gallery-color {
+        color: white;
+    }
+
+    /*This code is used for styling the bottom nav bar. I did it this way to keep it consistent with the media querys and make sure it doesnt take up to much screen space.*/
+    .bottomnavbar {
+        display: grid;
+        margin: 0 auto;
+        grid-column: 2/4;
+        grid-row: 4/4;
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /*I was able to reuse alot of assets from the mobile version and made minor tweaks to adjust
+    to the tablet screen size*/
+
+    /*The code below is used for styling the home page content*/
+    /*The code below is used for styling the nav bar*/
+    .topnavbar {
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        padding-left: 30px;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: 1s;
+        border-radius: 10%;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .logo {
+        background-color: #31444D;
+        height: 45px;
+        width: 45px;
+        float: left;
+        padding: 11px;
+    }
+
+    /*The code below is used for styling the main picture on the page*/
+    .homepic {
+        width: 100%;
+        position: relative;
+    }
+
+    /*the code is used for styling the text above the picture I did it this way to give a creative look to the site and the text is readable when changing the screen sizes.*/
+    .welcome {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .subheading {
+        text-align: left;
+    }
+
+    .pictext {
+        position: relative;
+        color: white;
+    }
+
+    .bottom-left {
+        font-size: 20px;
+        position: absolute;
+        justify-content: left;
+        padding-left: 20px;
+        bottom: 50px;
+        width: 250px;
+
+    }
+
+    /*The code below is used for styling the main body paragraph*/
+    .artist {
+        background-color: #31444D;
+        color: white;
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        line-height: 40px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    /*This code is used for styling the picture and its description I did it this way because it helps add more content to the home page and is easy enough to code in.*/
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 50px 100px 100px;
+    }
+
+    .molly {
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 2/4;
+        line-height: 35px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mollypic {
+        padding-top: 15px;
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 1/3;
+        width: 80%;
+        height: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .trainpic {
+        width: 70%;
+        height: 60%;
+        padding: 15px;
+        display: grid;
+        grid-column: 4/4;
+        grid-row: 1/3;
+    }
+
+    .traintext {
+        display: grid;
+        grid-column: 4/4;
+        grid-row: 2/3;
+        line-height: 35px;
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    /*I had chosen to use bootstrap for this part because I had alot of trouble getting the CSSGrid to work, thus I decided to go with boostrap*/
+    .extragrid1{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .extragrid2{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .extragrid3{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .extragrid4{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .extragrid5{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+        }
+
+
+
+    /*This code is used for styling the contact page and its content*/
+    .contactinfo {
+        display: block;
+        margin: 0 auto;
+        background-color: #97CABC;
+        width: 75%;
+        justify-content: center;
+        padding-top: 40px;
+        width: auto;
+        height: 650px;
+        text-align: center;
+    }
+
+    .contacttext {
+        color: white;
+        line-height: 30px;
+    }
+
+    .information {
+        display: block;
+        margin: 0 auto;
+        padding: 40px;
+        width: auto;
+        border: 10px;
+        color: white;
+        background-color: #31444D;
+    }
+
+    /*The code below is used for styling the contact picture. I did it like this to help put a name to a face.*/
+    .familypic {
+        width: 25%;
+        border-radius: 50%;
+    }
+
+    /*This code is used for styling the gallery for the desktop view I chose to do it this way to match the wireframe and it gives it a professional look*/
+    .mobilegallery {
+        width: 75%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .galleryimages {
+        position: relative;
+        text-align: center;
+        height: 75%;
+        transition: 2s;
+    }
+
+    .galleryimages:hover {
+        transform: scale(0.9, 0.9);
+    }
+
+    .top-middle {
+        font-size: 20px;
+        position: absolute;
+        width: 200px;
+        top: 60px;
+        left: 50px;
+    }
+
+    .top-bottom {
+        position: absolute;
+        top: 120px;
+        left: 70px;
+    }
+
+    .gallery-color {
+        color: white;
+    }
+
+    .bottomnavbar {
+        display: grid;
+        margin: 0 auto;
+        grid-column: 2/4;
+        grid-row: 4/4;
+        background-color: #31444D;
+        color: white;
+        padding: 10px;
+    }
+}
